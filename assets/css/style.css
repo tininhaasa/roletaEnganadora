@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+body {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+header,
+nav.navbar {
+    background-color: transparent !important;
+}
+
+
+footer {
+    background-color: #3a3a3a !important;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+}
+#img-logo {
+    height: 50%;
+    width: auto;
+}
+.loading-bar {
+    /* width: 87%; */
+    bottom: 52px;
+}
+.content p{
+    color: #fff;
+    text-shadow: 0 0 5px #000000e6;
+}
+.part1 .content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part2 .content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    padding: 40px 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #0000004d;
+    margin: 20px auto 0 auto;
+    width: 90%;
+    border: solid 3px green;
+    backdrop-filter: blur(8px);
+
+}
+
+.part3 .content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part3 .content img {
+    margin-bottom: 20px;
+}
+
+.content form {
+    text-align: center;
+}
+
+.content form div {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.progress-text {
+    font-family: 'montserrat black', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    font-size: 10px;
+}

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url(../libs/fonts/regular.ttf);
+}
+@font-face {
+    font-family: 'montserrat light';
+    src: url(../libs/fonts/light.ttf);
+}
+@font-face {
+    font-family: 'montserrat bold';
+    src: url(../libs/fonts/bold.ttf);
+}
+@font-face{
+    font-family: 'montserrat black';
+    src: url(../libs/fonts/black.ttf);
+}
+@font-face {
+    font-family: 'montserrat bold italic';
+    src: url(../libs/fonts/bold.ttf);
+}
+@font-face {
+    font-family: 'montserrat thin';
+    src: url(../libs/fonts/thin.ttf);
+}
+@font-face{
+    font-family: 'montserrat italic';
+    src: url(../libs/fonts/italic.ttf);
+}
+
+.font-regular,
+.font-regular font font{
+    font-family: 'montserrat'!important;
+}
+.font-light,
+.font-light font font{
+    font-family: 'montserrat light'!important;
+}
+.font-bold,
+.font-bold font font{
+    font-family: 'montserrat bold'!important;
+}
+.font-black,
+.font-black font font{
+    font-family: 'montserrat black'!important;
+}
+.font-bi,
+.font-bi font font{
+    font-family: 'montserrat bold italic'!important;
+}
+.font-thin,
+.font-thin font font{
+    font-family: 'montserrat thin'!important;
+}
+.font-italic,
+.font-italic font font{
+    font-family: 'montserrat italic'!important;
+}
